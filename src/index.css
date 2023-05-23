@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--white);
+}
+
+#root {
+  background-color: var(--white);
+}
+
+:root {
+  --green: #2a403e;
+  --white: #f9fafb;
+  --yellow: #ffbf05;
+  --grey: #708090;
+  --stext: #888888;
+  --mtext: #2c2c2c;
+  --highlight: #c1c7c9;
+}
+
+@font-face {
+  font-family: "FontFace";
+  src: url("../public/fonts/NotoSansKR-Regular.otf");
+  font-weight: 400;
+}
